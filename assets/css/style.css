@@ -1,0 +1,14 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+h1,
+nav {
+    font-family: 'Playfair', serif;
+}
