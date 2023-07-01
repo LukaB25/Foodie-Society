@@ -58,3 +58,11 @@ li {
     color: #ffe27c;
     border-bottom: 1px solid #b5c267;
 }
+
+/* Hero Image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/salad-2068220_1280.jpg') no-repeat center center;
+}
