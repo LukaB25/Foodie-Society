@@ -4,11 +4,41 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #c9b6a1;
 }
 
-/* header */
+/* header & logo*/
 
 h1,
+h2 {
+    font-family: 'Playfair', serif;
+    font-weight: 300;
+    color: #758650
+}
+
 nav {
     font-family: 'Playfair', serif;
+    font-weight: 300;
+    font-size: 150%;
+    color: #758650;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 25px;
+    letter-spacing: 2px;
+}
+
+#menu,
+li {
+    float: right;
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+#menu,
+#logo {
+    line-height: 50px;
 }
