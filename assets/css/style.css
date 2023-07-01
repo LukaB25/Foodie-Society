@@ -14,14 +14,7 @@ h1,
 h2 {
     font-family: 'Playfair', serif;
     font-weight: 300;
-    color: #758650
-}
-
-nav {
-    font-family: 'Playfair', serif;
-    font-weight: 300;
-    font-size: 150%;
-    color: #758650;
+    color: #b5c267
 }
 
 #logo {
@@ -29,6 +22,14 @@ nav {
     font-size: 250%;
     margin-left: 25px;
     letter-spacing: 2px;
+}
+
+/* Navigation */
+
+#menu {
+    font-family: 'Playfair', serif;
+    letter-spacing: 2px;
+    font-size: 120%;
 }
 
 #menu,
@@ -41,4 +42,19 @@ li {
 #menu,
 #logo {
     line-height: 50px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #b5c267;
+}
+
+#menu a:hover {
+    color: #ffe27c;
+    border-bottom: 1px solid #ffe27c;
+}
+
+.active {
+    color: #ffe27c;
+    border-bottom: 1px solid #b5c267;
 }
