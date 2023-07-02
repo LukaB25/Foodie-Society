@@ -108,7 +108,7 @@ li {
 
 /* About us section */
 
-.about-us {
+#about-us {
     font-family: 'Roboto', sans-serif;
     color: #f8f9f8;
     letter-spacing: 2px;
@@ -119,7 +119,7 @@ li {
     background-color: #5f6f52;
 }
 
-.about-us h2 {
+#about-us h2 {
     font-size: 250%;
     text-align: center;
 }
@@ -174,4 +174,39 @@ li {
     margin-left: auto;
     margin-right: auto;
     transform: scale(0.9);
+}
+
+/* Meetups, live chats and online classes */
+
+#meet {
+    background-image: url('/assets/images/berries-2277_1920.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#meet div {
+    color: #f8f9f8;
+    background-color: rgba(95, 111, 82, 0.5);
+    width: 20%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    border: 2px solid #f8f9f8;
+    box-sizing: border-box;
+}
+
+#meet>h2 {
+    font-family: 'Playfair', serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+#meet a {
+    color: #e8b634;
+    text-decoration: #e8b634;
 }
