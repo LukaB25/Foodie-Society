@@ -208,5 +208,17 @@ li {
 
 #meet a {
     color: #e8b634;
-    text-decoration: #e8b634;
+    text-decoration: 1px solid border #e8b634;
 }
+
+/* Footer and links */
+
+#links {
+    text-align: center;
+}
+
+#links li {
+    display: flex;
+    float: right;
+}
+
