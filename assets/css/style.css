@@ -31,11 +31,12 @@ h2 {
     background-color: #758650;
 }
 
-/* Navigation */
+/* Navigation bar */
 
 #menu {
     font-family: 'Playfair', serif;
     letter-spacing: 2px;
+    padding-top: 5px;
     font-size: 120%;
 }
 
@@ -103,3 +104,6 @@ li {
     left: 150px;
     position: absolute;
 }
+
+/* About us section */
+
