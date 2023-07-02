@@ -6,3 +6,23 @@ The Foodie Society is a website to help connect with the community united by the
 The Foodie Society is a great resource for inspiration, recipes and tips and tricks that have been tested and are certified to satisfy your tastebuds and improve your cooking skills.
 
 The Foodie Society will offer it's users following information: introduction and details about us, details about our gatherings, meetups and online calls, various recipes and contact information to get in touch and join our community.
+
+## About the build:
+
+I started the project and created all of the required pages: index.html, recipes.html, form.html, style.css, including the folders: assets containing css and images folder. 
+I created the structural layout for the home page:
+1. At the top header with navigation bar containing all of the pages the project will have.
+2. Hero image section that would contain the details so users would know what is the site for.
+3. About section with couple of details explaining who we are and what are the benefits of joining.
+4. Meetup and online chats section that will specify the times, dates and possible locations of gatherings.
+5. Footer with all of the links for our social media sites and a direct link to a contact form.
+
+Given that the site is food and food lover oriented, I have decided to gather couple of pictures connected to the topic. I checked and used pixabay.com and Unsplash.com to get royalty free images.
+
+After making a structural layout of the home page I started coding the site and I used previously learned topics and videos for support to locate certain coding styles. I also used ChatGPT to bounce the ideas around and for help checking if my colour pallete was sufficient enough and for couple of tips on how to construct some code to help me with the task **ie. how to align the image within the element** = actual code: ***display: block; margin-left: auto; margin-right: auto;***
+
+I made the basic header look and decided to style it later, once my hero image is in place. After adding the hero image I started with styling of the general look and feel of the site, even though I changed it along the way slightly. After succeeding with the header and hero image, I was creating the text for the hero image and ended up struggling slightly, but decided to look up and follow the instructions within the Love Running project, to use the general details and adjust my own changes and styles once I found my mistake. I forgot to set the **position** of the hero image-outer id to **relative**, which didn't allow for my text to align where I wanted it to.
+
+For the about us section I decided to create two articles contained within the div elemeent to contain two paragrafs split by an image and to be centered and aligned with each other.
+
+Next task is to create the meet up section.

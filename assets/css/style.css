@@ -5,8 +5,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #a9b388;
-    background-color: #f8f9f8;
+    color: #f8f9f8;
+    background-color: #a9b388;
 }
 
 /* header & logo*/
@@ -133,6 +133,7 @@ li {
 #about-left h3 {
     font-size: 150%;
     text-align: center;
+    border-bottom: 1px solid #f8f9f8;
 }
 
 #about-left p {
@@ -158,6 +159,7 @@ li {
 #about-right h3 {
     font-size: 150%;
     text-align: center;
+    border-bottom: 1px solid #f8f9f8;
 }
 
 #about-right p {
