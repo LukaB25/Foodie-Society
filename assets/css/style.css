@@ -1,12 +1,12 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&family=Roboto:wght@300&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #f8f9f8;
-    background-color: #c9b6a1;
+    color: #a9b388;
+    background-color: #f8f9f8;
 }
 
 /* header & logo*/
@@ -28,7 +28,7 @@ h2 {
 #head-style {
     width: 100%;
     height: 75px;
-    background-color: #758650;
+    background-color: #5f6f52;
 }
 
 /* Navigation bar */
@@ -78,7 +78,8 @@ li {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/mediterranean-cuisine-2378758_1920.jpg') no-repeat center center;
+    background: url('/assets/images/mediterranean-cuisine-2378758_1920.webp') no-repeat center center;
+    background-color: #783d19;
 }
 
 #image-text,
@@ -98,7 +99,7 @@ li {
 
     padding: 20px;
 
-    background-color: rgba(117, 120, 80, 0.8);
+    background-color: rgba(95, 111, 82, 0.8);
 
     bottom: 200px;
     left: 150px;
@@ -107,3 +108,68 @@ li {
 
 /* About us section */
 
+.about-us {
+    font-family: 'Roboto', sans-serif;
+    color: #f8f9f8;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 900px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #5f6f52;
+}
+
+.about-us h2 {
+    font-size: 250%;
+    text-align: center;
+}
+
+#about-left {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+}
+
+#about-left h3 {
+    font-size: 150%;
+    text-align: center;
+}
+
+#about-left p {
+    font-size: 120%;
+    text-align: center;
+}
+
+#about-left img {
+    width: 90%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.9);
+}
+
+#about-right {
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+}
+
+#about-right h3 {
+    font-size: 150%;
+    text-align: center;
+}
+
+#about-right p {
+    font-size: 120%;
+    text-align: center;
+}
+
+#about-right img {
+    width: 90%;
+    height: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.9);
+}
