@@ -7,6 +7,12 @@ The Foodie Society is a great resource for inspiration, recipes and tips and tri
 
 The Foodie Society will offer it's users following information: introduction and details about us, details about our gatherings, meetups and online calls, various recipes and contact information to get in touch and join our community.
 
+
+## Wireframes 
+
+Created using [Balsamiq](https://balsamiq.com)
+
+
 ## About the build:
 
 I started the project and created all of the required pages: index.html, recipes.html, form.html, style.css, including the folders: assets containing css and images folder. 
@@ -17,7 +23,7 @@ I created the structural layout for the home page:
 4. Meetup and online chats section that will specify the times, dates and possible locations of gatherings.
 5. Footer with all of the links for our social media sites and a direct link to a contact form.
 
-Given that the site is food and food lover oriented, I have decided to gather couple of pictures connected to the topic. I checked and used pixabay.com and Unsplash.com to get royalty free images.
+Given that the site is food and food lover oriented, I have decided to gather couple of pictures connected to the topic. I checked and used [PixaBay](https://www.pixabay.com) and [Unsplash](https://www.unsplash.com) to get royalty free images.
 
 After making a structural layout of the home page I started coding the site and I used previously learned topics and videos for support to locate certain coding styles. I also used ChatGPT to bounce the ideas around and for help checking if my colour pallete was sufficient enough and for couple of tips on how to construct some code to help me with the task **ie. how to align the image within the element** = actual code: ***display: block; margin-left: auto; margin-right: auto;***
 
