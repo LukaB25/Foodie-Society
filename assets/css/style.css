@@ -191,6 +191,7 @@ li {
 
 #meet div {
     color: #f8f9f8;
+    letter-spacing: 2px;
     background-color: rgba(95, 111, 82, 0.5);
     width: 20%;
     height: 300px;
@@ -203,7 +204,10 @@ li {
 #meet>h2 {
     font-family: 'Playfair', serif;
     font-size: 200%;
+    letter-spacing: 2px;
     text-align: center;
+    background-color: rgba(95, 111, 82, 0.5);
+    border: 2px solid #f8f9f8;
 }
 
 #meet a {
@@ -213,15 +217,61 @@ li {
 
 /* Footer and links */
 
-#links ul {
+footer {
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+    background-color: #5f6f52;
+    font-family: 'Playfair', serif;
+    color: #f8f9f8;
+    text-align: center;
+}
+
+footer ul {
+    display: inline-flex;
+}
+
+#links-left {
+    float: left;
+    margin-left: 75px;
+    display: flex;
+}
+
+footer li>a {
+    font-size: 200%;
+    margin-left: 75px;
+    color: #f8f9f8;
+    display: -webkit-inline-box;
+}
+
+footer li>a:hover {
+    font-size: 250%;
+    color: #e8b634;
+}
+
+#links-right {
+    float: right;
+    display: -webkit-inline-box;
+    margin-right: 75px;
+}
+
+#links-right ul {
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
-#links ul>li {
+#links-right ul>li {
     -moz-transform: rotate(-180deg);
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
+}
+
+footer p {
     display: inline-block;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #e8b634;
 }
