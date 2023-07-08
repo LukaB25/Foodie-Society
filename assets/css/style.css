@@ -82,15 +82,18 @@ li {
     background-color: #783d19;
 }
 
-#image-text,
 #image-text h2 {
     color: #f8f9f8;
+    font-size: 40px;
+}
 
+#image-text {
+    color: #f8f9f8;
+    font-size: 25px;
 }
 
 #image-text {
     font-family: 'Playfair', serif;
-    font-size: 140%;
     letter-spacing: 2px;
     text-align: center;
 
@@ -120,7 +123,7 @@ li {
 }
 
 #about-us h2 {
-    font-size: 250%;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -131,13 +134,13 @@ li {
 }
 
 #about-left h3 {
-    font-size: 150%;
+    font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #f8f9f8;
 }
 
 #about-left p {
-    font-size: 120%;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -157,13 +160,13 @@ li {
 }
 
 #about-right h3 {
-    font-size: 150%;
+    font-size: 30px;
     text-align: center;
     border-bottom: 1px solid #f8f9f8;
 }
 
 #about-right p {
-    font-size: 120%;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -174,6 +177,11 @@ li {
     margin-left: auto;
     margin-right: auto;
     transform: scale(0.9);
+}
+
+#about-left i:hover,
+#about-right i:hover {
+    font-size: 150%;
 }
 
 /* Meetups, live chats and online classes */
@@ -213,6 +221,10 @@ li {
 #meet a {
     color: #e8b634;
     text-decoration: 1px solid border #e8b634;
+}
+
+#meet h2 i:hover {
+    font-size: 150%;
 }
 
 /* Footer and links */
@@ -272,6 +284,11 @@ footer p {
 }
 
 footer p a {
+    text-decoration: none;
+    color: #f8f9f8;
+}
+
+footer p a:hover {
     text-decoration: none;
     color: #e8b634;
 }
