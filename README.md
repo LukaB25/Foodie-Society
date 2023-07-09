@@ -54,7 +54,10 @@ display:inline-block;
 I have started the recipes.html by copying the source code from index.html to reuse the body, Header, Hero image and Footer section in the build of the second page of a site. I spent some time informing and making sure I can still reuse all of my elements and that everything is still funcioning, and it did.
 
 I decided to use three recipes that have been in my family and that myself or my family members came up with. The first one is a pizza recipe that is my very own that I have been making for years. The burger recipe is something my husband came up with and perfected over the years.
+And the last but still very important to me is a recipe for cream filled profiteroles my mother has been making my whole life. All of the recipes are tested and would recommend to try, but the reason I included them is because I wanted to connect something personal with my project.
 
-## Troubleshooting
+In this section I was struggling slightly with getting all of the sizes and ratios working, but I am satisfied with the look of the page and the fact that it matches with the home page.
+
+# # Troubleshooting
 
 After couple of days of coding and doing final add ons onto the home page I have realized I haven't included aria-label for the navigation main logo and navigation menu. So I worked on adding all of them and making sure all links have a aria-label.
