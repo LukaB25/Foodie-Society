@@ -64,16 +64,16 @@
         </div>
         <div id="form">
             <form method="GET" action="confirmation.html" class="contact-form">
-                <h2>Want to Join or just ask us a Question?</h2>
+                <h2>Want to join or just ask us a question? <i class="fas fa-scroll"></i></h2>
                 <h3>Fill out the form and we will be in touch with you</h3>
                 <label for="fname">First Name:</label>
-                <input id="fname" name="first_name" type="text" class="text-input" required>
+                <input id="fname" name="first_name" type="text" class="text_input" required>
 
                 <label for="lname">Last Name:</label>
-                <input id="lname" name="last_name" type="text" class="text-input" required>
+                <input id="lname" name="last_name" type="text" class="text_input" required>
 
                 <label for="email">Email Address:</label>
-                <input id="email" name="email_address" type="email" class="text-input" required>
+                <input id="email" name="email_address" type="email" class="text_input" required>
 
                 <h3>Contact reason:</h3>
 
@@ -89,8 +89,9 @@
                 <label for="other">Other</label>
                 <input id="other" name="contact-reason" type="radio" value="other" required>
 
-                <label for="input">Join the community</label>
-                <input id="input" name="input_text" type="text" class="text-input" required>
+
+                <textarea name="input_text" id="question_input" cols="30" rows="5" placeholder="Start writing here..."
+                    minlength="50" maxlength="1000" required></textarea>
 
                 <input class="send_button" type="submit" value="Ask Us!">
                 <input class="reset-button" type="reset" value="Empty Form!">
