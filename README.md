@@ -56,8 +56,22 @@ I have started the recipes.html by copying the source code from index.html to re
 I decided to use three recipes that have been in my family and that myself or my family members came up with. The first one is a pizza recipe that is my very own that I have been making for years. The burger recipe is something my husband came up with and perfected over the years.
 And the last but still very important to me is a recipe for cream filled profiteroles my mother has been making my whole life. All of the recipes are tested and would recommend to try, but the reason I included them is because I wanted to connect something personal with my project.
 
-In this section I was struggling slightly with getting all of the sizes and ratios working, but I am satisfied with the look of the page and the fact that it matches with the home page.
+In this section I was struggling slightly with getting all of the sizes and ratios working, but I managed to sort it out and I am satisfied with the look of the page and the fact that it matches with the home page.
+
+### form.html
+
+In the beginning of the project I have decided I will not create a separate page for the gallery, but upon starting with the form.html page I have decided to try something I was completely unsure if it will be possible and how will I manage to succeed at creating. I have decided that I will try my best to create my vision.
+
+First I created a gallery, consisting of 12 images, for a help and reference I used the previous lessons and rewatched the Love Running gallery videos. I made sure that all of the images were overlapping and that they were in a good position.
+
+Once the gallery was finished I started creating to form, after revisiting the original forms lessons I started creating the code and slowly it was coming together, but it was still not overlapping on top of the gallery. Couple of google searches later I have realised what was I missing. I forgot to place a **position:relative** onto the gallery and **position:absolute**, as soon as I added the code, the form overlapped on top of the created gallery. I decided to add couple of **hover** animations and finish the form page.
+
+### confirmation.html
+
+During my first meeting with the mentor Dick Vlaanderen, we were discussing the whole project and I was showing him my wireframes and the where I was with my first page partially coded. We were discussing where I was planning to go with this project and he advised me to keep up with the same theme across the whole project, but also to create a forth page, that will only be visible once the form has been sent, instead of being taken to a completely differently styled Code Institute page. Which I loved, I found that idea great, as it completely encapsulates the user experience and brings the site to another level.
+
+In relation to that I decided to just create a simple page with a thank you text on top of the gallery letting the user know that we have received their form. User is stil able to navigate across the whole page.
 
 # # Troubleshooting
 
-After couple of days of coding and doing final add ons onto the home page I have realized I haven't included aria-label for the navigation main logo and navigation menu. So I worked on adding all of them and making sure all links have a aria-label.
+After couple of days of coding and doing final add ons onto the home page I have realized I haven't included aria-label for the main logo, navigation menu and in the paragraph within footer. So I worked on adding all of them and making sure all links have a aria-label.

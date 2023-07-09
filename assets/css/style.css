@@ -77,7 +77,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('/assets/images/mediterranean-cuisine-2378758_1920.webp') no-repeat center center;
+    background: url('/assets/images/mediterranean-cuisine-2378758_1920.avif') no-repeat center center;
     background-color: #783d19;
 }
 
@@ -187,7 +187,7 @@ h2 {
 /* Meetups, live chats and online classes */
 
 #meet {
-    background-image: url('/assets/images/berries-2277_1920.webp');
+    background-image: url('/assets/images/berries-2277_1920.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -220,7 +220,7 @@ h2 {
 
 #meet a {
     color: #c9b6a1;
-    text-decoration: 1px solid border #e8b634;
+    text-decoration: 1px solid #e8b634;
 }
 
 #meet h2 i:hover {
@@ -412,7 +412,7 @@ footer p a:hover {
     color: #c9b6a1;
 }
 
-/* Span style */
+/* Ingredients div style */
 
 .notebook {
     width: 100%;
@@ -432,7 +432,7 @@ footer p a:hover {
     padding-top: 5px;
 }
 
-span {
+.ingredients {
     display: inline-block;
     width: 49%;
     height: 150px;
@@ -440,7 +440,7 @@ span {
     text-align: center;
 }
 
-span li {
+.ingredients li {
     list-style-type: none;
     line-height: 30px;
     font-size: 17.5px;
@@ -505,6 +505,7 @@ strong {
 
 #form-photos img {
     width: 100%;
+    height: auto;
     position: relative;
 }
 
@@ -561,7 +562,7 @@ textarea::placeholder {
 
 .send_button {
     font-family: 'Playfair', serif;
-    background-color: #a9b388;
+    background-color: #f8f9f8;
     border: 1px solid #f8f9f8;
     color: #5f6f52;
     padding: 20px 30px;
