@@ -12,7 +12,7 @@ The Foodie Society will offer it's users following information: introduction and
 Created using [Balsamiq](https://balsamiq.com)
 
 ## About the build:
-
+### index.html
 I started the project and created all of the required pages: index.html, recipes.html, form.html, style.css, including the folders: assets containing css and images folder.
 I created the structural layout for the home page:
 
@@ -46,6 +46,13 @@ ul > li {
 transform: rotate(-180deg);
 display:inline-block;
 }
+
+### recipes.html
+
+I have started the recipes.html  by copying the source code from index.html to reuse the body, Header, Hero image and Footer section in the build of the second page of a site. I spent some time informing and making sure I can still reuse all of my elements and that everything is still funcioning, and it did. 
+
+I decided to use three recipes that have been in my family and that myself or my family members came up with. The first one is a pizza recipe that is my very own that I have been making for years. The burger recipe is something my husband came up with and perfected over the years.
+
 
 ## Troubleshooting
 

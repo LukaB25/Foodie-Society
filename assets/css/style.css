@@ -40,8 +40,7 @@ h2 {
     font-size: 120%;
 }
 
-#menu,
-li {
+#menu li {
     float: right;
     margin-right: 25px;
     list-style-type: none;
@@ -241,6 +240,7 @@ footer {
 
 footer ul {
     display: inline-flex;
+    list-style-type: none;
 }
 
 #links-left {
@@ -294,3 +294,180 @@ footer p a:hover {
 }
 
 /* Recipes section styles */
+
+#recipes {
+    font-family: 'Roboto', sans-serif;
+    color: #f8f9f8;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #5f6f52;
+}
+
+#recipes h2 {
+    font-family: 'Playfair', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+#recipes h3 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #f8f9f8;
+}
+
+#recipes p {
+    font-size: 25px;
+    text-align: center;
+}
+
+#recipes img {
+    overflow: hidden;
+}
+
+.recipe-normal {
+    width: 100%;
+    height: 1150px;
+    background-color: #5f6f52;
+    border-bottom: 5px solid #a9b388;
+}
+
+.recipe-normal-left {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.recipe-normal-right {
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.recipe-inverted {
+    width: 100%;
+    height: 1150px;
+    background-color: #5f6f52;
+}
+
+.recipe-inverted-left {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.recipe-inverted-right {
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.recipe-last {
+    width: 100%;
+    height: 1150px;
+    background-color: #5f6f52;
+    padding-top: 75px;
+    border-top: 5px solid #a9b388;
+}
+
+.recipe-last-left {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    padding-top: 50px;
+}
+
+.recipe-last-right {
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+}
+
+#recipes ol {
+    font-size: 20px;
+}
+
+.end {
+    font-family: 'Playfair', serif;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    padding-left: 44%;
+}
+
+/* Span style */
+
+.notebook {
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #f8f9f8;
+    border-radius: 25px;
+}
+
+.notebook h3 {
+    color: #5f6f52;
+    padding-top: 5px;
+}
+
+span {
+    display: inline-block;
+    width: 49%;
+    height: 150px;
+    color: #5f6f52;
+    text-align: center;
+}
+
+span li {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 17.5px;
+}
+
+strong {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Recipe images */
+
+#pizza {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+.circle-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #f8f9f8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#burger {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+}
+
+#profiterole {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    display: block;
+}
