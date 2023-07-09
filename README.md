@@ -72,6 +72,12 @@ During my first meeting with the mentor Dick Vlaanderen, we were discussing the 
 
 In relation to that I decided to just create a simple page with a thank you text on top of the gallery letting the user know that we have received their form. User is stil able to navigate across the whole page.
 
-# # Troubleshooting
+## Troubleshooting
 
 After couple of days of coding and doing final add ons onto the home page I have realized I haven't included aria-label for the main logo, navigation menu and in the paragraph within footer. So I worked on adding all of them and making sure all links have a aria-label.
+
+Did some w3 and w3c validator and lighthouse testing corrected the code. There was couple of unnecessary </i> tags, removed the span from the code, as I was using ul in the same section. Had 1 error in the CSS code, which was an extra border word in the text-decoration styling, corrected it.
+
+I had an issue in the lighthouse with slow responce due to the large image files, so I corrected them by converting the pictures to avif file and resizing them.
+
+As of today still need to do responsiveness adjustments and figure out how to add pictures to the readme file and ready then I am ready to book my 2nd mentors meeting.
