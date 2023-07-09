@@ -58,7 +58,7 @@ h2 {
 
 #menu a:hover {
     color: #c9b6a1;
-    border-bottom: 1px solid #e8b634;
+    border-bottom: 1px solid #c9b6a1;
 }
 
 .active {
@@ -490,4 +490,20 @@ strong {
     margin-right: auto;
     margin-top: 25px;
     display: block;
+}
+
+/* Contact form */
+
+/* Photo gallery background */
+
+#form-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    position: relative;
+}
+
+#form-photos {
+    width: 100%;
 }
