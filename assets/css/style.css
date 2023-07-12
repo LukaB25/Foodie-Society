@@ -492,9 +492,7 @@ strong {
     display: block;
 }
 
-/* Contact form */
-
-/* Photo gallery background */
+/* Contact form and hoto gallery background*/
 
 #form-photos {
     clear: both;
@@ -656,6 +654,30 @@ textarea::placeholder {
 /* Laptop screen max-width 1300px */
 
 @media screen and (max-width: 1300px) {
+    /* Hero Image */
+
+    #image-outer {
+        height: 400px;
+    }
+
+    #image-text h2 {
+        font-size: 30px;
+    }
+
+    #image-text {
+        font-size: 20px;
+    }
+
+    #image-text {
+        width: 60%;
+        height: 150px;
+
+        top: 150px;
+        left: 5%;
+        position: absolute;
+    }
+
+
     /* About */
 
     #about-us {
@@ -762,25 +784,6 @@ textarea::placeholder {
 /* Tablets and devices max-with 925px */
 
 @media screen and (max-width: 925px) {
-    /* Hero Image */
-
-    #image-text h2 {
-        font-size: 30px;
-    }
-
-    #image-text {
-        font-size: 20px;
-    }
-
-    #image-text {
-        width: 80%;
-        height: 150px;
-
-        top: 200px;
-        left: 5%;
-        position: absolute;
-    }
-
     /* About */
 
     #about-us h2 {
@@ -859,13 +862,20 @@ textarea::placeholder {
     /* Contact form */
 
     #form {
-        max-width: 80%;
+        max-width: 90%;
+        left: 7.5%;
     }
 }
 
 /* Tablets and screen mac-width 700px */
 
 @media screen and (max-width: 700px) {
+    /* Hero Image */
+
+    #image-text {
+        width: 80%;
+    }
+
     /* Navigation Links */
 
     #menu li {

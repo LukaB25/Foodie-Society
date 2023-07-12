@@ -11,6 +11,15 @@ The Foodie Society will offer it's users following information: introduction and
 
 Created using [Balsamiq](https://balsamiq.com)
 
+First sketch on normal size device:
+![First sketch](/assets/images/screenshots/first_sketch.png)
+
+Sketch on tablet or similar size device
+![Sketch_tablet](/assets/images/screenshots/sketch_tablet.png)
+
+Sketch of a phone or similar size device:
+![Sketch_tablet](/assets/images/screenshots/sketch_phone.png)
+
 ## About the build:
 
 ### index.html
@@ -80,4 +89,28 @@ Did some w3 and w3c validator and lighthouse testing corrected the code. There w
 
 I had an issue in the lighthouse with slow responce due to the large image files, so I corrected them by converting the pictures to avif file and resizing them.
 
+I worked on responsiveness by adding the media queries and improving all of the different aspects that were necessary with various screen changes. I had to do some troubleshooting in regards of: navigation bar falling apart with smaller screen sizes - set up the parameters to have navigation bar transfer into second line, but still being adjusted to the right; hero image text getting out of pre set size parameters - added new parameters to adjust to different screen sizes; About us and recipes section not optimal for smaller screen sizes - aligned each of the articles into one central line, so they sit one after another to be more user friendly; footer starting to overlap and started looking miss aligned on smaller screens - added parameters to reduce the size of icons and text, and separate into two lines on even smaller screens; form being to small and narrow for smaller screens - reduced the left margins and expanded the width of the form window to improve experience; gallery pictures underneath the form were too small on smaller devices - used the knowledge from the previous lessons to adjust the columns to improve the gallery background.
+
 As of today still need to do responsiveness adjustments and figure out how to add pictures to the readme file and ready then I am ready to book my 2nd mentors meeting.
+
+## Performance
+
+index.html:
+
+![Home Page Performance](assets/images/screenshots/performance_home.png)
+
+recipes.html:
+
+![Recipes Page Performance](assets/images/screenshots/performance_recipes.png)
+
+form.html:
+
+![Form Page Performance](assets/images/screenshots/performance_form.png)
+
+confirmation.html:
+
+![Form Page Performance](assets/images/screenshots/performance_confirmation.png)
+
+W3C HTML and CSS Validator:
+
+I have checked my code after finishing all of the html and css pages through the Validators and the code has no additional errors and is passing all of the checks.
