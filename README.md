@@ -81,6 +81,8 @@ During my first meeting with the mentor Dick Vlaanderen, we were discussing the 
 
 In relation to that I decided to just create a simple page with a thank you text on top of the gallery letting the user know that we have received their form. User is stil able to navigate across the whole page.
 
+## Testing
+
 ## Troubleshooting
 
 After couple of days of coding and doing final add ons onto the home page I have realized I haven't included aria-label for the main logo, navigation menu and in the paragraph within footer. So I worked on adding all of them and making sure all links have a aria-label.
@@ -94,6 +96,8 @@ I worked on responsiveness by adding the media queries and improving all of the 
 As of today still need to do responsiveness adjustments and figure out how to add pictures to the readme file and ready then I am ready to book my 2nd mentors meeting.
 
 Did some troubleshooting of the site and discovered the h2 element under each of the recipes containing _Bon Appetit._ was not centered properly for the first two recipes, fixed them by adding additional padding underneath the ordered list on the right.
+
+## Deployment
 
 ## Performance
 
