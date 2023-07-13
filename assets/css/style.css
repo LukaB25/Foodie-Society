@@ -189,7 +189,7 @@ h2 {
 /* Meetups, live chats and online classes */
 
 #meet {
-    background-image: url('/assets/images/berries-2277_1920.avif');
+    background-image: url('assets/images/berries-2277_1920.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -455,6 +455,15 @@ strong {
 
 /* Recipe images */
 
+.circle-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid #f8f9f8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #pizza {
     border-radius: 50%;
     width: 450px;
@@ -463,15 +472,6 @@ strong {
     margin-right: auto;
     margin-top: 25px;
     display: block;
-}
-
-.circle-container {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    border: 2px solid #f8f9f8;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #burger {
@@ -970,6 +970,41 @@ textarea::placeholder {
     #form-photos {
         column-count: 2;
     }
+
+    /* Recipe images */
+
+    .circle-container {
+        transform: scale(0.7);
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Recipes */
+
+    #recipes h2 {
+        font-size: 30px;
+    }
+
+    #recipes h3 {
+        font-size: 20px;
+    }
+
+    #recipes p {
+        font-size: 15px;
+    }
+
+    #recipes ol {
+        font-size: 15px;
+    }
+
+    .notebook {
+        width: 90%;
+    }
+
+    .ingredients {
+        width: 100%;
+    }
+
 }
 
 
@@ -987,7 +1022,7 @@ textarea::placeholder {
 @media screen and (max-width: 350px) {
     #image-text {
         width: 80%;
-        height: 200px;
+        height: 250px;
     }
 
     #menu li {

@@ -93,6 +93,8 @@ I worked on responsiveness by adding the media queries and improving all of the 
 
 As of today still need to do responsiveness adjustments and figure out how to add pictures to the readme file and ready then I am ready to book my 2nd mentors meeting.
 
+Did some troubleshooting of the site and discovered the h2 element under each of the recipes containing _Bon Appetit._ was not centered properly for the first two recipes, fixed them by adding additional padding underneath the ordered list on the right.
+
 ## Performance
 
 index.html:
