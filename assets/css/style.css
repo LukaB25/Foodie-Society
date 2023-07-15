@@ -75,6 +75,7 @@ h2 {
 }
 
 #hero-image {
+    background-image: url('../images/mediterranean-cuisine-2378758_1920.avif');
     height: 600px;
     width: 100%;
     background-repeat: no-repeat;
