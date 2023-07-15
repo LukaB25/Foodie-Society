@@ -1060,6 +1060,10 @@ textarea::placeholder {
         width: 80%;
     }
 
+    #recipes p {
+        max-width: 80%;
+        margin-left: 10%;
+    }
 }
 
 /* Small phones and screen mac-width 350px */
