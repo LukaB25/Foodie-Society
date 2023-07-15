@@ -1,4 +1,4 @@
-# Foodie Society
+# [Foodie Society]( https://lukab25.github.io/Foodie-Society/)
 
 ## Introduction
 
@@ -81,6 +81,8 @@ During my first meeting with the mentor Dick Vlaanderen, we were discussing the 
 
 In relation to that I decided to just create a simple page with a thank you text on top of the gallery letting the user know that we have received their form. User is stil able to navigate across the whole page.
 
+The site is live at:  https://lukab25.github.io/Foodie-Society/
+
 ## Testing
 
 ## Troubleshooting
@@ -98,6 +100,22 @@ As of today still need to do responsiveness adjustments and figure out how to ad
 Did some troubleshooting of the site and discovered the h2 element under each of the recipes containing _Bon Appetit._ was not centered properly for the first two recipes, fixed them by adding additional padding underneath the ordered list on the right.
 
 ## Deployment
+
+Steps:
+1. Open my repository [Foodie Society github](https://github.com/LukaB25/Foodie-Society).
+2. Go to settings.
+3. Locate Pages in the menu section on the left of the screen.
+4. Click on none under the Branch and select main option.
+5. Click on the save button.
+6. After couple of minutes reload the page and you will have a live site at the top of the site.
+7. Click on the link and it will take you to a live site.  [My live site](https://lukab25.github.io/Foodie-Society/)
+
+
+Local deployment steps:
+1. Open my repository [Foodie Society github](https://github.com/LukaB25/Foodie-Society).
+2. Locate and click on the green button with Code written on it.
+3. Copy the link from the menu
+4. Clone the code onto your machine and start working on the code.
 
 ## Performance
 
