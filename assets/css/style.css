@@ -192,6 +192,7 @@ h2 {
 /* Meetups, live chats and online classes */
 
 #meet {
+    background-image: url('/assets/images/berries-2277_1920.avif');
     background-repeat: no-repeat;
     background-size: center;
     background-position: center;
@@ -201,6 +202,7 @@ h2 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
 
 #meet div {
     color: #f8f9f8;
