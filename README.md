@@ -85,6 +85,24 @@ The site is live at:  https://lukab25.github.io/Foodie-Society/
 
 ## Testing
 
+Colons can be used to align columns.
+
+| Action               | Expectation              | Outcome  |
+| :-------------:      |:-------------:           | :-------:|
+| Click on logo        | Takes you to home screen | Pass |
+| Navigation bar       | Active page underlined   | Pass |
+| Navigation bar:hover | Lights up on hover       | Pass |
+| Hero image           | Adjusts with screen size | Pass |
+|        |    | Pass |
+|  |        | Pass |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+
+
+
 ## Troubleshooting
 
 After couple of days of coding and doing final add ons onto the home page I have realized I haven't included aria-label for the main logo, navigation menu and in the paragraph within footer. So I worked on adding all of them and making sure all links have a aria-label.
@@ -98,6 +116,8 @@ I worked on responsiveness by adding the media queries and improving all of the 
 As of today still need to do responsiveness adjustments and figure out how to add pictures to the readme file and ready then I am ready to book my 2nd mentors meeting.
 
 Did some troubleshooting of the site and discovered the h2 element under each of the recipes containing _Bon Appetit._ was not centered properly for the first two recipes, fixed them by adding additional padding underneath the ordered list on the right.
+
+After deployment of the site I found out that the hero image and the meetups background image were not uploading, so I took some time trying to figure out what what the issue. I discovered that the images were not loading because they were within the style.css file and they didn't have a proper directory set up. Instead of setting them up to go one directory up and then access the images folder I was trying to add them the same way I added the img files within the html by going through the /assets/images pathway and the way to fix it was to replace the assets with ../images pathway.
 
 ## Deployment
 
