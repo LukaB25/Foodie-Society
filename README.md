@@ -85,6 +85,61 @@ In relation to that I decided to just create a simple page with a thank you text
 
 The site is live at: https://lukab25.github.io/Foodie-Society/
 
+## Features
+
+Navigation bar with logo:
+
+![Nav bar & Logo section](assets/images/features/feature_nav.png)
+When you open the site the first thing you can notice is a navigation bar at the top of the screen that includes the [Foodie Society](https://lukab25.github.io/Foodie-Society/) logo and the navigation to the Home, Recipes and Contact page. All three navigation links are interactive and underline and light up beige on hover, they open in same tab on press. The active page is underlined so users know which page they are on. If you click on the logo, you will be taken to the home page of the site. Navigation bar is the same on all four pages to keep the style same across the whole site. Navigation bar is fully resposive and changes with the screen size
+
+Hero image:
+
+![Hero image & text section](assets/images/features/feature_hero.png)
+Hero image and text offer some insite and a little introduction for the users to know what the site is for. Both the image and the text are responsive with the screen changes.
+
+About us:
+
+![About us section](assets/images/features/feature_about.png)
+About us section tells users a little bit about our community and lets them see what they could gain by joining. The Icons are interactive, they change colour and grow in size on hover. Section is fully responsive with screen changes. With smaller devices two articles will switch from being side by side to be one under another to offer better viewing experience to users.
+
+Meetups:
+
+![Meetup section](assets/images/features/feature_meetups.png)
+Meetups section offers users different interactions with the community. They can choose from the online classes, online chats, meetups and participation in exploring various coffee houses and restaurants. The section is fully responsive and each div will separate from inline arrangement into a single line arrangement one after another. Icons in headers are interactive and will increse in size and change colour on hover. All of the links are opening in separate tab so the users can easily come back to our site.
+
+Footer:
+
+![Footer section](assets/images/features/feature_footer.png)
+Footer consists of various different social media and contact links. Each link opens in separate tab and has its own interactive icon that increses in size and changes colour on hover. I added a paragraph on the bottom explaining that the site was created for [Code Institute](https://codeinstitute.net/ie/) which changes colour on hover and on click will take you to the site, I also added myself as who created the site, and the hover over my name will likewise change colour of text and on click will take you to my linked in.
+
+Recipes hero image:
+
+![Recipes hero image section](assets/images/features/feature_recipes.png)
+When a user opens recipes page, the hero image will be the same as the one on the home page, but the text overlapping the image will change to give little insight into the recipes section. Hero image within recipes section is fully resposive as well.
+
+Recipe #1:
+
+![Recipe #1](assets/images/features/feature_recipe_1.png)
+![Recipe #2](assets/images/features/feature_recipe_2.png)
+![Recipe #3](assets/images/features/feature_recipe_3.png)
+There are three different recipes within this section. first article offers an image and the some details about each of the recipes. The title of each recipe has interactive icon that changes in size and colour on hover. The articles are fully responsive with different screen sizes and will change to single line articles on smaller screens.
+
+Each recipe is followed by a ingredients list and preparation steps.
+![Recipe #1 ingredients](assets/images/features/feature_recipe_1_ingredients.png)
+![Recipe #1 Preparation](assets/images/features/feature_recipe_1_prep.png)
+
+Contact:
+
+![Contact Form & Gallery](assets/images/features/feature_form_gallery.png)
+
+The Contact page consists of the gallery as a background of the page that has overlapped form on top of the gallery. The gallery it self is fully resposive and will change the number of columns with different size screens. The form is fully interactive and lets users ask questions, send requests or recipes to the community. The form is responsive and will adjust with screen sizes. All of the icons on the contact page are interactive and will increse in size and change colour on hover. Upon submittion of the form you will be taken to the confirmation page that was created as a separate page, to offer same user experience as the rest of the site.
+
+Confirmation:
+
+![Confirmation](assets/images/features/feature_form_confirmation.png)
+
+Upon submittion of the form, you will automatically be taken to the confirmation page to let the user know that their form has been submitted. The confirmation page consist of the same gallery as the form and a text box that lets the user know they have contacted us. All of the icons on the confirmation page are interactive and will increse in size and change colour on hover. The page is fully resposive and will adapt to screen size.
+
 ## Testing
 
 Colons can be used to align columns.
