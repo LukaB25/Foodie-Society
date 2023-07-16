@@ -1061,9 +1061,13 @@ textarea::placeholder {
 /* Phones and screen mac-width 550px */
 
 @media screen and (max-width: 550px) {
+    /* Hero Image */
+
     #image-text {
         max-width: 80%;
     }
+
+    /* Recipes */
 
     #recipes h3 {
         width: 50%;
@@ -1079,13 +1083,14 @@ textarea::placeholder {
         margin-left: 15%;
     }
 
+    /* Recipes images */
+
     .circle-container {
         width: auto;
         height: auto;
         border-radius: 0;
         border: none;
     }
-
 
     #pizza {
         width: auto;
@@ -1112,16 +1117,17 @@ textarea::placeholder {
 /* Small phones and screen mac-width 400px */
 
 @media screen and (max-width: 400px) {
+    /* Hero Image */
+
     #image-text {
         width: 80%;
         height: 275px;
     }
 
+    /* Navigation menu */
+
     #menu li {
         margin-right: 15px;
     }
 
-    .circle-container {
-        transform: scale(0.6);
-    }
 }
