@@ -1,4 +1,6 @@
-# [Foodie Society]( https://lukab25.github.io/Foodie-Society/)
+# [Foodie Society](https://lukab25.github.io/Foodie-Society/)
+
+![Am I Responsive](assets/images/screenshots/amiresponsive.png)
 
 ## Introduction
 
@@ -81,27 +83,64 @@ During my first meeting with the mentor Dick Vlaanderen, we were discussing the 
 
 In relation to that I decided to just create a simple page with a thank you text on top of the gallery letting the user know that we have received their form. User is stil able to navigate across the whole page.
 
-The site is live at:  https://lukab25.github.io/Foodie-Society/
+The site is live at: https://lukab25.github.io/Foodie-Society/
 
 ## Testing
 
 Colons can be used to align columns.
 
-| Action               | Expectation              | Outcome  |
-| :-------------:      |:-------------:           | :-------:|
-| Click on logo        | Takes you to home screen | Pass |
-| Navigation bar       | Active page underlined   | Pass |
-| Navigation bar:hover | Lights up on hover       | Pass |
-| Hero image           | Adjusts with screen size | Pass |
-|        |    | Pass |
-|  |        | Pass |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-
-
+|           Action            |                                Expectation                                 | Outcome |
+| :-------------------------: | :------------------------------------------------------------------------: | :-----: |
+|           Header            |                          Adjusts with screen size                          |  Pass   |
+|        Click on logo        |                           Takes you to home page                           |  Pass   |
+|       Navigation bar        |                 Active page underlined, adjusts with size                  |  Pass   |
+|    Navigation bar - Home    |               Takes you to home page, underlined when active               |  Pass   |
+|  Navigation bar - Recipes   |             Takes you to recipes page, underlined when active              |  Pass   |
+|    Navigation bar - Form    |               Takes you to form page, underlined when active               |  Pass   |
+|    Navigation bar:hover     |                   Changes colour and underlined on hover                   |  Pass   |
+|      Click on nav bar       |                   Takes you to selected page (same tab)                    |  Pass   |
+|         Hero image          |                          Adjusts with screen size                          |  Pass   |
+|          About us           |                          Adjusts with screen size                          |  Pass   |
+|       About us images       |                          Adjusts with screen size                          |  Pass   |
+|        About us text        | Adjusts with screen size/ reduces to single line with smaller screen sizes |  Pass   |
+|    About us icons:hover     |                      Changes colour and size on hover                      |  Pass   |
+|           Meetups           |                          Adjust with screen size                           |  Pass   |
+|        Meetups text         | Adjusts with screen size/ reduces to single line with smaller screen sizes |  Pass   |
+|     Meetups icons:hover     |                      Changes colour and size on hover                      |  Pass   |
+|    Meetups twitch links     |                         Opens site in separate tab                         |  Pass   |
+|     Meetups skype link      |                         Opens site in separate tab                         |  Pass   |
+|     Meetups coffee link     |                         Opens site in separate tab                         |  Pass   |
+|  Meetups restaurant links   |                         Opens site in separate tab                         |  Pass   |
+|           Recipes           |                          Adjusts with screen size                          |  Pass   |
+|        Recipes text         | Adjusts with screen size/ reduces to single line with smaller screen sizes |  Pass   |
+|       Recipes images        |                          Adjusts with screen size                          |  Pass   |
+|     Recipes icons:hover     |                      Changes colour and size on hover                      |  Pass   |
+|            Form             |                          Adjust with screen size                           |  Pass   |
+|          Form text          |                          Adjusts with screen size                          |  Pass   |
+|      Form icons:hover       |                      Changes colour and size on hover                      |  Pass   |
+|       Form submition        |         Opens confirmation page with the same styling in same tab          |  Pass   |
+|     Gallery background      |            Adjusts size and number of columns with screen size             |  Pass   |
+|        Confirmation         |          Adjusts with screen size, has same styling as form page           |  Pass   |
+|   Confirmation navigation   |        Allows you to navigate through the site same as other pages         |  Pass   |
+|           Footers           |                          Adjust with screen size                           |  Pass   |
+|     Footer icons:hover      |                      Changes colour and size on hover                      |  Pass   |
+|    Footer Facebook icon     |                    Opens Facebook site in separate tab                     |  Pass   |
+|    Footer Instagram icon    |                    Opens Instagram site in separate tab                    |  Pass   |
+|    Footer Pinterest icon    |                    Opens Pinterest site in separate tab                    |  Pass   |
+|     Footer Twitter icon     |                     Opens Twitter site in separate tab                     |  Pass   |
+|     Footer Youtube icon     |                     Opens Youtube site in separate tab                     |  Pass   |
+| Footer Code Institute link  |                 Opens Code Institute site in separate tab                  |  Pass   |
+| Footer Code institute:hover |                          Changes colour on hover                           |  Pass   |
+|   Footer Luka Black link    |                     Opens my LinkedIn in separate tab                      |  Pass   |
+|   Footer Luka Black:hover   |                          Changes colour on hover                           |  Pass   |
+|      Footer Form icon       |                      Opens Form site in separate tab                       |  Pass   |
+|     Footer Twitch icon      |                     Opens Twitch site in separate tab                      |  Pass   |
+|      Footer Skype icon      |                      Opens Skype site in separate tab                      |  Pass   |
+|     Footer Twitch icon      |                     Opens Twitch site in separate tab                      |  Pass   |
+|     Home responsivness      |               Home page fully responsive with screen changes               |  Pass   |
+|    Recipes responsivness    |             Recipes page fully responsive with screen changes              |  Pass   |
+|    Contact responsivness    |               Form page fully responsive with screen changes               |  Pass   |
+| Confirmation responsivness  |           Confirmation page fully responsive with screen changes           |  Pass   |
 
 ## Troubleshooting
 
@@ -117,21 +156,24 @@ As of today still need to do responsiveness adjustments and figure out how to ad
 
 Did some troubleshooting of the site and discovered the h2 element under each of the recipes containing _Bon Appetit._ was not centered properly for the first two recipes, fixed them by adding additional padding underneath the ordered list on the right.
 
-After deployment of the site I found out that the hero image and the meetups background image were not uploading, so I took some time trying to figure out what what the issue. I discovered that the images were not loading because they were within the style.css file and they didn't have a proper directory set up. Instead of setting them up to go one directory up and then access the images folder I was trying to add them the same way I added the img files within the html by going through the /assets/images pathway and the way to fix it was to replace the assets with ../images pathway.
+After deployment of the site I found out that the hero image and the meetups background image were not updating, so I took some time trying to figure out what what the issue. I discovered that the images were not loading because they were within the style.css file and they didn't have a proper directory set up. Instead of setting them up to go one directory up and then access the images folder I was trying to add them the same way I added the img files within the html by going through the /assets/images pathway and the way to fix it was to replace the assets with ../images pathway.
+
+After setting up media queries for responsiveness I found out that the recipes page was not responsive and was falling apart with sizes smaller that 525px. After hours of troubleshooting and trying to figure it out I discovered that the article had no specified container and the circle-container that held the images were not working optimally on the small screen sizes so I tryed a lot of different techniques, but discovered that the best option is to remove the circle-container boundaries and border set the image size to auto, so it can adjust more easily on such small screen size. I also added the article width and height to make sure it is not going out of alignement with other sections.
 
 ## Deployment
 
 Steps:
+
 1. Open my repository [Foodie Society github](https://github.com/LukaB25/Foodie-Society).
 2. Go to settings.
 3. Locate Pages in the menu section on the left of the screen.
 4. Click on none under the Branch and select main option.
 5. Click on the save button.
 6. After couple of minutes reload the page and you will have a live site at the top of the site.
-7. Click on the link and it will take you to a live site.  [My live site](https://lukab25.github.io/Foodie-Society/)
-
+7. Click on the link and it will take you to a live site. [My live site](https://lukab25.github.io/Foodie-Society/)
 
 Local deployment steps:
+
 1. Open my repository [Foodie Society github](https://github.com/LukaB25/Foodie-Society).
 2. Locate and click on the green button with Code written on it.
 3. Copy the link from the menu
