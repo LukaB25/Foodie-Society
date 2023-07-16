@@ -424,6 +424,11 @@ footer p a:hover {
     color: #c9b6a1;
 }
 
+.container-article {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Ingredients div style */
 
 .notebook {
@@ -470,18 +475,9 @@ strong {
     height: 500px;
     border-radius: 50%;
     border: 2px solid #f8f9f8;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
-/* .circle-container img {
-    width: 90%;
-    height: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transform: scale(0.9);
-} */
 
 #pizza {
     border-radius: 50%;
@@ -1062,7 +1058,6 @@ textarea::placeholder {
 
 }
 
-
 /* Phones and screen mac-width 550px */
 
 @media screen and (max-width: 550px) {
@@ -1071,28 +1066,62 @@ textarea::placeholder {
     }
 
     #recipes h3 {
-        max-width: 80%;
-        padding-left: 10%;
-        border-bottom: 0;
+        width: 50%;
+        padding-left: 0;
+        margin: auto;
+
     }
 
     #recipes p {
-        max-width: 80%;
-        padding-left: 10%;
+        width: 70%;
+        padding-left: 0;
         padding-right: 0;
-        margin-right: 0;
+        margin-left: 15%;
+    }
+
+    .circle-container {
+        width: auto;
+        height: auto;
+        border-radius: 0;
+        border: none;
+    }
+
+
+    #pizza {
+        width: auto;
+        height: auto;
+    }
+
+    #burger {
+        width: auto;
+        height: auto;
+    }
+
+    #profiterole {
+        width: auto;
+        height: auto;
+    }
+
+    .end {
+        width: 50%;
+        margin-left: 25%;
+        padding: 0;
     }
 }
 
-/* Small phones and screen mac-width 350px */
+/* Small phones and screen mac-width 400px */
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     #image-text {
         width: 80%;
-        height: 250px;
+        height: 275px;
     }
 
     #menu li {
         margin-right: 15px;
+    }
+
+    .circle-container {
+        transform: scale(0.6);
     }
 }
