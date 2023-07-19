@@ -1,7 +1,5 @@
 # [Foodie Society](https://lukab25.github.io/Foodie-Society/)
 
-
-
 ## Introduction
 
 - The Foodie Society is a great resource for inspiration, recipes and tips and tricks that have been tested and are certified to satisfy your tastebuds and improve your cooking skills.
@@ -103,7 +101,7 @@ Hero image:
 
 ![Hero image & text section](assets/images/features/feature_hero.png)
 
-- Hero image and text offer some insite and a little introduction for the users to know what the site is for. 
+- Hero image and text offer some insite and a little introduction for the users to know what the site is for.
 
 - Both the image and the text are responsive with the screen changes.
 
@@ -111,7 +109,7 @@ About us:
 
 ![About us section](assets/images/features/feature_about.png)
 
-- About us section tells users a little bit about our community and lets them see what they could gain by joining. 
+- About us section tells users a little bit about our community and lets them see what they could gain by joining.
 
 - The Icons are interactive, they change colour and grow in size on hover. Section is fully responsive with screen changes. With smaller devices two articles will switch from being side by side to be one under another to offer better viewing experience to users.
 
@@ -119,7 +117,7 @@ Meetups:
 
 ![Meetup section](assets/images/features/feature_meetups.png)
 
-- Meetups section offers users different ways to interact with the community. They can choose from the online classes, online chats, meetups and participation in exploring various coffee houses and restaurants. 
+- Meetups section offers users different ways to interact with the community. They can choose from the online classes, online chats, meetups and participation in exploring various coffee houses and restaurants.
 
 - The meetup locations will be updated occasionally with new timeframes and/or locations.
 
@@ -129,7 +127,7 @@ Footer:
 
 ![Footer section](assets/images/features/feature_footer.png)
 
-- Footer consists of various different social media and contact links. Each link opens in separate tab and has its own interactive icon that increses in size and changes colour on hover. 
+- Footer consists of various different social media and contact links. Each link opens in separate tab and has its own interactive icon that increses in size and changes colour on hover.
 
 - Footer offers users more ways to stay connected and in contact with the community.
 
@@ -139,7 +137,7 @@ Recipes hero image:
 
 ![Recipes hero image section](assets/images/features/feature_recipes.png)
 
-- When a user opens recipes page, the hero image will be the same as the one on the home page, but the text overlapping the image will change to give little insight into the recipes section and to let the user know that they are on the different page. 
+- When a user opens recipes page, the hero image will be the same as the one on the home page, but the text overlapping the image will change to give little insight into the recipes section and to let the user know that they are on the different page.
 
 - Hero image and text within recipes section are fully resposive as well.
 
@@ -169,7 +167,7 @@ Contact:
 
 - The contact form lets users initiate and control the action of the site by submitting their questions or requests to the site owners. Upon submittion of the form user will be taken to the confirmation page that was created as a separate page, to offer same user experience as the rest of the site.
 
-- The gallery it self is fully resposive and will change the number of columns with different size screens. The form is fully interactive and lets users ask questions, send requests or recipes to the community. The form is responsive and will adjust with screen sizes. All of the icons on the contact page are interactive and will increse in size and change colour on hover. 
+- The gallery it self is fully resposive and will change the number of columns with different size screens. The form is fully interactive and lets users ask questions, send requests or recipes to the community. The form is responsive and will adjust with screen sizes. All of the icons on the contact page are interactive and will increse in size and change colour on hover.
 
 Confirmation:
 
@@ -177,14 +175,13 @@ Confirmation:
 
 - Upon submittion of the form, user will automatically be taken to the confirmation page to let them know that their form has been submitted.
 
-- The confirmation page consist of the same gallery as the form and a text box that lets the user know they have contacted us. Even though you can only access the confirmation page by submitting the form, it offers the full control over the site same as the other pages by consisting of the same header and footer for complete control by the user. 
+- The confirmation page consist of the same gallery as the form and a text box that lets the user know they have contacted us. Even though you can only access the confirmation page by submitting the form, it offers the full control over the site same as the other pages by consisting of the same header and footer for complete control by the user.
 
 - All of the icons on the confirmation page are interactive and will increse in size and change colour on hover. The page is fully resposive and will adapt to screen size.
 
 ### Features left to implement
 
 - The only features left to implement in the future are possible video recipes, instructions, tips and tricks in the future of the site.
-
 
 ## Testing
 
@@ -328,5 +325,3 @@ Confirmation:
 - Few lines of code were taken from [StackOverflow](https://stackoverflow.com/questions/47031111/displaying-the-list-items-in-reverse-order-using-css)
 - Starting steps and few lines of code came from previous lessons and Love Running Project
 - Definition of the gourmet meal was taken from [More Than Gourmet](https://www.morethangourmet.com/blogs/more-than-gourmet-recipes/what-is-gourmet-food#:~:text=There%20are%20external%20factors%20that,can%20be%20common%20on%20another.)
-
-
