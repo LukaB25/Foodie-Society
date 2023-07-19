@@ -275,6 +275,10 @@ footer li>a:hover {
     margin-right: 75px;
 }
 
+/* I have found this code on stackoverflow: 
+https://stackoverflow.com/questions/47031111/displaying-the-list-items-in-reverse-order-using-css  
+and adjusted it to my needs*/
+
 #links-right ul {
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
