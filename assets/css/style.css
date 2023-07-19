@@ -457,10 +457,15 @@ footer p a:hover {
     text-align: center;
 }
 
+.ingredients ul {
+    padding: 0;
+}
+
 .ingredients li {
     list-style-type: none;
     line-height: 30px;
     font-size: 17.5px;
+    padding: 0;
 }
 
 strong {
