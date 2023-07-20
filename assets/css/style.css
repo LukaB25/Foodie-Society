@@ -293,7 +293,7 @@ and adjusted it to my needs*/
 
 footer p {
     display: inline-block;
-    padding-top: 25px;
+    margin-top: 0;
     padding-right: 10%;
 }
 
