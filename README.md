@@ -127,7 +127,7 @@ Footer:
 
 ![Footer section](assets/images/features/feature_footer.png)
 
-- Footer consists of various different social media and contact links. Each link opens in separate tab and has its own interactive icon that increses in size and changes colour on hover.
+- Footer consists of various different social media and contact links. Each link opens in separate tab and has its own interactive icon that changes colour on hover.
 
 - Footer offers users more ways to stay connected and in contact with the community.
 
@@ -221,7 +221,7 @@ Confirmation:
 |        Confirmation         |          Adjusts with screen size, has same styling as form page           |  Pass   |
 |   Confirmation navigation   |        Allows you to navigate through the site same as other pages         |  Pass   |
 |           Footers           |                          Adjust with screen size                           |  Pass   |
-|     Footer icons:hover      |                      Changes colour and size on hover                      |  Pass   |
+|     Footer icons:hover      |                          Changes colour on hover                           |  Pass   |
 |    Footer Facebook icon     |                    Opens Facebook site in separate tab                     |  Pass   |
 |    Footer Instagram icon    |                    Opens Instagram site in separate tab                    |  Pass   |
 |    Footer Pinterest icon    |                    Opens Pinterest site in separate tab                    |  Pass   |
@@ -257,6 +257,8 @@ Confirmation:
 - After deployment of the site I found out that the hero image and the meetups background image were not updating, so I took some time trying to figure out what what the issue. I discovered that the images were not loading because they were within the style.css file and they didn't have a proper directory set up. Instead of setting them up to go one directory up and then access the images folder I was trying to add them the same way I added the img files within the html by going through the /assets/images pathway and the way to fix it was to replace the assets with ../images pathway.
 
 - After setting up media queries for responsiveness I found out that the recipes page was not responsive and was falling apart with sizes smaller that 525px. After hours of troubleshooting and trying to figure it out I discovered that the article had no specified container and the circle-container that held the images were not working optimally on the small screen sizes so I tryed a lot of different techniques, but discovered that the best option is to remove the circle-container boundaries and border set the image size to auto, so it can adjust more easily on such small screen size. I also added the article width and height to make sure it is not going out of alignement with other sections.
+
+- Finally I removed the icon size increase on hover in a footer as it messed up the paragraph underneath and left it to change the colour on hover.
 
 ### Unfixed bugs:
 
