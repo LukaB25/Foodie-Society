@@ -38,14 +38,14 @@ Sketch of a phone or similar size device:
 
 - Given that the site is food and food lover oriented, I have decided to gather couple of pictures connected to the topic. I checked and used [PixaBay](https://www.pixabay.com) and [Unsplash](https://www.unsplash.com) to get royalty free images.
 
-- After making a structural layout of the home page I started coding the site and I used previously learned topics and videos for support to locate certain coding styles. I also used ChatGPT to bounce the ideas around and for help checking if my colour pallete was sufficient enough and for couple of tips on how to construct some code to help me with the task **ie. how to align the image within the element** = actual code: **_display: block; margin-left: auto; margin-right: auto;_**
+- After making a structural layout of the home page I started coding the site and I used previously learned topics and videos for support to locate certain coding styles. I also used ChatGPT to bounce the ideas around and for help checking if my colour pallete was sufficient enough and for couple of tips on how to construct some code to help me with the task **ie. how to align the image within the element** = actual code: **_display: block; margin-left: auto; margin-right: auto;_** In the end I found my colour pallete by checking the Pinterest for some inspiration.
 
 - I made the basic header look and decided to style it later, once my hero image is in place. After adding the hero image I started with styling of the general look and feel of the site, even though I changed it along the way slightly. After succeeding with the header and hero image, I was creating the text for the hero image and ended up struggling slightly, but decided to look up and follow the instructions within the Love Running project, to use the general details and adjust my own changes and styles once I found my mistake. I forgot to set the **position** of the hero image-outer id to **relative**, which didn't allow for my text to align where I wanted it to.
 
-- For the about us section I decided to create two articles contained within the div elemeent to contain two paragrafs split by an image and to be centered and aligned with each other.
+- For the about us section I decided to create two articles contained within the div elemeent to contain two paragraphs split by an image and to be centered and aligned with each other.
 
 - Next task is to create the meet up section. After choosing and adding an img file I set it as a background and added 5 divs to my meetups section to contain all of the details about our weekly meetups, online classes and exploring of restaurants and coffee houses.
-  _later_ I realised my links are not opening in a separate tab and that they do not contain explanation for the Screen Readers so I worked on adding the code by implementing: **target="\_blank" rel="noopener" aria-label="xyz(opens in a new tab)"**
+- Later I realised my links are not opening in a separate tab and that they do not contain explanation for the Screen Readers so I worked on adding the code by implementing: **target="\_blank" rel="noopener" aria-label="xyz(opens in a new tab)"**
 
 - While creating the footer. I was struggling with positioning of the social media links as they were automatically aligning to the right in reverse order. I was reserching the ways to reverse the list order and have found a solution on [StackOverflow](https://stackoverflow.com/questions/47031111/displaying-the-list-items-in-reverse-order-using-css) so I used the following code from there and modified it to my needs:
 
@@ -66,8 +66,7 @@ Sketch of a phone or similar size device:
 
 - I have started the recipes.html by copying the source code from index.html to reuse the body, Header, Hero image and Footer section in the build of the second page of a site. I spent some time informing and making sure I can still reuse all of my elements and that everything is still funcioning, and it did.
 
-- I decided to use three recipes that have been in my family and that myself or my family members came up with. The first one is a pizza recipe that is my very own that I have been making for years. The burger recipe is something my husband came up with and perfected over the years.
-  And the last but still very important to me is a recipe for cream filled profiteroles my mother has been making my whole life. All of the recipes are tested and would recommend to try, but the reason I included them is because I wanted to connect something personal with my project.
+- I decided to use three recipes that have been in my family and that myself or my family members came up with. The first one is a pizza recipe that is my very own that I have been making for years. The burger recipe is something my husband came up with and perfected over the years. And the last but still very important to me is a recipe for cream filled profiteroles my mother has been making my whole life. All of the recipes are tested and would recommend to try, but the reason I included them is because I wanted to connect something personal with my project.
 
 - In this section I was struggling slightly with getting all of the sizes and ratios working, but I managed to sort it out and I am satisfied with the look of the page and the fact that it matches with the home page.
 
@@ -75,7 +74,7 @@ Sketch of a phone or similar size device:
 
 - In the beginning of the project I have decided I will not create a separate page for the gallery, but upon starting with the form.html page I have decided to try something I was completely unsure if it will be possible and how will I manage to succeed at creating. I have decided that I will try my best to create my vision.
 
-- First I created a gallery, consisting of 12 images, for a help and reference I used the previous lessons and rewatched the Love Running gallery videos. I made sure that all of the images were overlapping and that they were in a good position.
+- First I created a gallery, consisting of various images, for a help and reference I used the previous lessons and rewatched the Love Running gallery videos. I made sure that all of the images were overlapping and that they were in a good position.
 
 - Once the gallery was finished I started creating to form, after revisiting the original forms lessons I started creating the code and slowly it was coming together, but it was still not overlapping on top of the gallery. Couple of google searches later I have realised what was I missing. I forgot to place a **position:relative** onto the gallery and **position:absolute**, as soon as I added the code, the form overlapped on top of the created gallery. I decided to add couple of **hover** animations and finish the form page.
 
@@ -111,7 +110,7 @@ About us:
 
 - About us section tells users a little bit about our community and lets them see what they could gain by joining.
 
-- The Icons are interactive, they change colour and grow in size on hover. Section is fully responsive with screen changes. With smaller devices two articles will switch from being side by side to be one under another to offer better viewing experience to users.
+- The Icons are interactive, they change colour on hover. Section is fully responsive with screen changes. With smaller devices two articles will switch from being side by side to be one under another to offer better viewing experience to users.
 
 Meetups:
 
@@ -121,7 +120,7 @@ Meetups:
 
 - The meetup locations will be updated occasionally with new timeframes and/or locations.
 
-- The section is fully responsive and each div will separate from inline arrangement into a single line arrangement one after another. Icons in headers are interactive and will increse in size and change colour on hover. All of the links are opening in separate tab so the users can easily come back to our site.
+- The section is fully responsive and each div will separate from inline arrangement into a single line arrangement one after another. Icons in headers are interactive and will change colour on hover. All of the links are opening in separate tab so the users can easily come back to our site.
 
 Footer:
 
@@ -151,7 +150,7 @@ Recipe #1:
 
 - First article offers an image and the some details about each of the recipes.
 
-- The title of each recipe has interactive icon that changes in size and colour on hover. The articles are fully responsive with different screen sizes and will change to single line articles on smaller screens.
+- The title of each recipe has interactive icon that changes colour on hover. The articles are fully responsive with different screen sizes and will change to single line articles on smaller screens.
 
 Each recipe is followed by a ingredients list and preparation steps.
 ![Recipe #1 ingredients](assets/images/features/feature_recipe_1_ingredients.png)
@@ -163,11 +162,13 @@ Contact:
 
 - The Contact page consists of the gallery as a background of the page that has overlapped form on top of the gallery.
 
+- The gallery was set up so selected images are removed on medium sized screens to adjust the screen size and over the most of the screen with no gaps. The optional images are returned on small screens.
+
 - The gallery offers users a visual representation of the various recipes and dishes they could learn with the community.
 
 - The contact form lets users initiate and control the action of the site by submitting their questions or requests to the site owners. Upon submittion of the form user will be taken to the confirmation page that was created as a separate page, to offer same user experience as the rest of the site.
 
-- The gallery it self is fully resposive and will change the number of columns with different size screens. The form is fully interactive and lets users ask questions, send requests or recipes to the community. The form is responsive and will adjust with screen sizes. All of the icons on the contact page are interactive and will increse in size and change colour on hover.
+- The gallery it self is fully resposive and will change the number of columns with different size screens. The form is fully interactive and lets users ask questions, send requests or recipes to the community. The form is responsive and will adjust with screen sizes. All of the icons on the contact page are interactive and will change colour on hover.
 
 Confirmation:
 
@@ -177,7 +178,9 @@ Confirmation:
 
 - The confirmation page consist of the same gallery as the form and a text box that lets the user know they have contacted us. Even though you can only access the confirmation page by submitting the form, it offers the full control over the site same as the other pages by consisting of the same header and footer for complete control by the user.
 
-- All of the icons on the confirmation page are interactive and will increse in size and change colour on hover. The page is fully resposive and will adapt to screen size.
+- The gallery was set up in the same way on the confirmation page as the form so selected images are removed on medium sized screens to adjust the screen size and over the most of the screen with no gaps. The optional images are returned on small screens.
+
+- All of the icons on the confirmation page are interactive and will change colour on hover. The page is fully resposive and will adapt to screen size.
 
 ### Features left to implement
 
@@ -201,10 +204,10 @@ Confirmation:
 |          About us           |                          Adjusts with screen size                          |  Pass   |
 |       About us images       |                          Adjusts with screen size                          |  Pass   |
 |        About us text        | Adjusts with screen size/ reduces to single line with smaller screen sizes |  Pass   |
-|    About us icons:hover     |                      Changes colour and size on hover                      |  Pass   |
+|    About us icons:hover     |                          Changes colour on hover                           |  Pass   |
 |           Meetups           |                          Adjust with screen size                           |  Pass   |
 |        Meetups text         | Adjusts with screen size/ reduces to single line with smaller screen sizes |  Pass   |
-|     Meetups icons:hover     |                      Changes colour and size on hover                      |  Pass   |
+|     Meetups icons:hover     |                          Changes colour on hover                           |  Pass   |
 |    Meetups twitch links     |                         Opens site in separate tab                         |  Pass   |
 |     Meetups skype link      |                         Opens site in separate tab                         |  Pass   |
 |     Meetups coffee link     |                         Opens site in separate tab                         |  Pass   |
@@ -212,10 +215,10 @@ Confirmation:
 |           Recipes           |                          Adjusts with screen size                          |  Pass   |
 |        Recipes text         | Adjusts with screen size/ reduces to single line with smaller screen sizes |  Pass   |
 |       Recipes images        |                          Adjusts with screen size                          |  Pass   |
-|     Recipes icons:hover     |                      Changes colour and size on hover                      |  Pass   |
+|     Recipes icons:hover     |                          Changes colour on hover                           |  Pass   |
 |            Form             |                          Adjust with screen size                           |  Pass   |
 |          Form text          |                          Adjusts with screen size                          |  Pass   |
-|      Form icons:hover       |                      Changes colour and size on hover                      |  Pass   |
+|      Form icons:hover       |                          Changes colour on hover                           |  Pass   |
 |       Form submition        |         Opens confirmation page with the same styling in same tab          |  Pass   |
 |     Gallery background      |            Adjusts size and number of columns with screen size             |  Pass   |
 |        Confirmation         |          Adjusts with screen size, has same styling as form page           |  Pass   |
@@ -258,7 +261,9 @@ Confirmation:
 
 - After setting up media queries for responsiveness I found out that the recipes page was not responsive and was falling apart with sizes smaller that 525px. After hours of troubleshooting and trying to figure it out I discovered that the article had no specified container and the circle-container that held the images were not working optimally on the small screen sizes so I tryed a lot of different techniques, but discovered that the best option is to remove the circle-container boundaries and border set the image size to auto, so it can adjust more easily on such small screen size. I also added the article width and height to make sure it is not going out of alignement with other sections.
 
-- Finally I removed the icon size increase on hover in a footer as it messed up the paragraph underneath and left it to change the colour on hover.
+- I decided to remove the icon size increse from all of the icons as they were making the site segments to move and shift the page layout slightly and I decided that is not the best for great user experience practises.
+
+- From the beggining I had an issue with loading of the imported fonts. I followed the steps in Love Running project, but I kept getting a problem in python that the imports were not loading in parallel, the fonts loaded, but the same issue message was loading each time with opening of code anywhere. After my meeting with my mentor mr. Dick Vlaanderen and a chat with him he recommended to try linking the fonts within the head section of each page. I took his advice and tried it out, which ended up sorting out my problem in python.
 
 ### Unfixed bugs:
 

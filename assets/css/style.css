@@ -1,6 +1,4 @@
-/* Fonts */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&family=Roboto:wght@300&display=swap');
+/* Body */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -186,7 +184,6 @@ h2 {
 
 #about-left i:hover,
 #about-right i:hover {
-    font-size: 150%;
     color: #c9b6a1;
 }
 
@@ -230,7 +227,6 @@ h2 {
 }
 
 #meet h2 i:hover {
-    font-size: 150%;
     color: #c9b6a1;
 }
 
@@ -423,7 +419,6 @@ footer p a:hover {
 }
 
 .recipe i:hover {
-    font-size: 125%;
     color: #c9b6a1;
 }
 
@@ -443,7 +438,6 @@ footer p a:hover {
 }
 
 .notebook h3 i:hover {
-    font-size: 150%;
     color: #c9b6a1;
 }
 
@@ -550,7 +544,6 @@ strong {
 }
 
 #form h2 i:hover {
-    font-size: 150%;
     color: #c9b6a1;
 }
 
@@ -821,6 +814,12 @@ textarea::placeholder {
         left: 10%;
     }
 
+    /* Gallery backgrounds */
+
+    .optional-img {
+        display: none;
+    }
+
     /* Footer */
 
     footer li>a {
@@ -828,11 +827,6 @@ textarea::placeholder {
         margin-left: 25px;
         color: #f8f9f8;
         display: -webkit-inline-box;
-    }
-
-    footer li>a:hover {
-        font-size: 250%;
-        color: #c9b6a1;
     }
 }
 
@@ -1016,6 +1010,12 @@ textarea::placeholder {
 
     #form-photos {
         column-count: 2;
+    }
+
+    /* Gallery backgrounds */
+
+    .optional-img {
+        display: initial;
     }
 
     /* Recipe images */
